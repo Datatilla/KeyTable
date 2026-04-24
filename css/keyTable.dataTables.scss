@@ -13,7 +13,7 @@ table.dataTable tbody {
 	tr.selected {
 		th.focus,
 		td.focus {
-			outline-color: color.adjust($keytable-focus, $lightness: -20);
+			outline-color: color.adjust($keytable-focus, $lightness: -20%);
 		}
 	}
 }
@@ -38,7 +38,7 @@ html.dark {
 		tr.selected {
 			th.focus,
 			td.focus {
-				outline-color: color.adjust(rgb(13, 110, 253), $lightness: -20);
+				outline-color: color.adjust(rgb(13, 110, 253), $lightness: -20%);
 			}
 		}
 	}
